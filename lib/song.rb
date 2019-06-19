@@ -21,11 +21,11 @@ class Song
   end
 
   def self.genres
-    @@genres  #control for duplicates!
+    @@genres  #control for duplicates! look up uniq!
   end
 
   def self.artists
-    @@artists  #Control for duplicates!
+    @@artists  #Control for duplicates! look up uniq!
   end
 
   def self.genre_count
