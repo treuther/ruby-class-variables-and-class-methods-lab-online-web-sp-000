@@ -28,8 +28,9 @@ class Song
     @@artists  #Control for duplicates!
   end
 
-  def self.genre_count(genre_name, songs)
-
+  def self.genre_count
+    @@genres.each do |each_genre|
+      
   end
 
 end
