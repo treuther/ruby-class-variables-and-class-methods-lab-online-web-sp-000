@@ -28,4 +28,8 @@ class Song
     @@artists  #Control for duplicates!
   end
 
+  def self.genre_count
+
+  end
+
 end
