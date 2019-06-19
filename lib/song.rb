@@ -21,4 +21,8 @@ class Song
     @@genre  #control for duplicates!
   end
 
+  def self.artists
+
+  end
+
 end
