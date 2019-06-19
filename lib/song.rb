@@ -21,17 +21,17 @@ class Song
   end
 
   def self.genres
-    @@genres  #control for duplicates! look up uniq!
+    @@genres.uniq
   end
 
   def self.artists
-    @@artists  #Control for duplicates! look up uniq!
+    @@artists.uniq
   end
 
   def self.genre_count
     genre_count = {}
     @@genres.each do |each_genre|
-
+      if @@genre_count = genre
   end
 
 end
