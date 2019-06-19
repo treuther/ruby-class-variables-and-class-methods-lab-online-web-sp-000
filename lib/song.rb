@@ -28,7 +28,7 @@ class Song
     @@artists  #Control for duplicates!
   end
 
-  def self.genre_count
+  def self.genre_count(genre_name, songs)
 
   end
 
